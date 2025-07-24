@@ -215,10 +215,10 @@ def novo_user(users):
 	print("\nUsuário cadastrado com sucesso!")
 
 def main():
-	users = [{"nome": "Pedro", "nascimento": "11/11/1900", "cpf": "12345678901", "endereco": "Rua A, 123 - Bairro B - Cidade/UF"}]
-	contas = [{"agencia": "0001", "numero": 1, "usuario": "Pedro"}]
+	users = []
+	contas = []
 	# List adicionada para armazenar informarções especificas de cada conta, sem ir contra o enuciado do exercicio
-	dados_contas = [{"numero": 1, "saldo": 0.0, "extrato": "", "saques_realizados": 0}]
+	dados_contas = []
 
 	while (True):
 		cmd = input(menu("welcome"))
